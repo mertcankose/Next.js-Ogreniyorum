@@ -1,14 +1,15 @@
 import Link from "next/link";
+import styles from "./navigation.module.css";
 
 function Navigation() {
   return (
     <nav>
       <Link href="/">
-        <a>GO HOMEPAGE</a>
+        <a className={styles.link}>GO HOMEPAGE</a>
       </Link>
 
       <Link href="/about">
-        <a>GO ABOUT</a>
+        <a style={{color:'brown'}}>GO ABOUT</a>
       </Link>
     </nav>
   );

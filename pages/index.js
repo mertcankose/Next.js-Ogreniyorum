@@ -7,15 +7,16 @@ function HomePage() {
       <p className="how">How are you?</p>
       <style jsx>{`
         h1 {
-          background-color: red;
-          color: gray;
+          background-color: skyblue;
+          color: black;
         }
         .how {
-          color: palevioletred;
+          color: purple;
         }
       `}</style>
 
-      {/* only body of the index page */}
+      {/*
+      {// only body of the index page}
       <style global jsx>{`
         html {
           color:deepskyblue;
@@ -24,6 +25,7 @@ function HomePage() {
           background-color: yellow;
         }
       `}</style>
+        */}
     </Layout>
   );
 }

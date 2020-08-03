@@ -12,7 +12,7 @@ function Layout({ children }) {
 
       <main>{children}</main>
 
-      <footer>Copyright 2020 | Mertcan Kose</footer>
+      {/*<footer>Copyright 2020 | Mertcan Kose</footer>*/}
     </div>
   );
 }

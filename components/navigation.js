@@ -9,7 +9,7 @@ function Navigation() {
       </Link>
 
       <Link href="/about">
-        <a style={{color:'brown'}}>GO ABOUT</a>
+        <a className={styles.link} style={{color:'royalblue'}}>GO ABOUT</a>
       </Link>
     </nav>
   );

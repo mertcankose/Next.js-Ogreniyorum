@@ -1,3 +1,8 @@
 .link{
     color:royalblue;
+    margin-right:20px;
+    text-decoration: none;
+}
+.link:hover{
+    background-color: #ffc1fa; 
 }
